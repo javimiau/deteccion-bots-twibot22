@@ -1,0 +1,12 @@
+# Datos de Twibot-22: no deben subirse ni redistribuirse
+datos/
+*.csv
+*.json
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+tablas_datos.tex
