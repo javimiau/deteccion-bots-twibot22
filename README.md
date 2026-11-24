@@ -23,6 +23,15 @@ datos/      archivos de entrada y de salida (no se sube a GitHub)
 scripts/    scripts de preparación
 ```
 
+## Pruebas en Orange
+
+La carpeta `orange/` contiene los flujos de las pruebas de concepto:
+
+- `prueba_v1.ows`: versión 1 (TF-IDF).
+- `prueba_v2.ows`: versión 2 (TF-IDF más las características del widget Statistics).
+
+Los flujos leen `orange_todo.csv`, que se genera con los scripts y debe ubicarse en la ruta que indique el widget CSV File Import.
+
 ## Requisitos
 
 Python 3 y la biblioteca `ijson`:
